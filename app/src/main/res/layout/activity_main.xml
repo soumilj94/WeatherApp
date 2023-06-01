@@ -82,16 +82,26 @@
             android:textSize="34sp" />
 
         <TextView
+            android:layout_above="@id/creator"
             android:id="@+id/weatherDesc"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="50dp"
+            android:layout_marginBottom="10dp"
             android:hint="Weather Desc"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/creator"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Created by Soumil Jaiswal"
+            android:layout_centerHorizontal="true"
+            android:textColor="#1ba9f0"/>
 
         <ProgressBar
             android:id="@+id/progressBar"
